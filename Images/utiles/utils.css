@@ -1,0 +1,15 @@
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+
+.hero {
+    margin: 3rem;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}

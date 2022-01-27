@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 55%;
+    margin: 0 auto;
+}
+
+
+.nav-item-links a {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+
+
+}
+
+
+
+.nav-item-links a:hover {
+    text-decoration: underline;
+    margin: 5px;
+    color: rgb(212, 26, 26);
+
+}
+
+
+.nav-item-links ul {
+    list-style-type: none;
+    display: flex;
+    background-color: rgb(78, 74, 74);
+    height: 40px;
+    align-items: center;
+}
+
+
+.logo-container {
+    justify-content: flex-start;
+    margin-right: 20vh;
+}
+
+.wrapper {
+    background-color: rgb(53, 52, 52);
+
+}
+
+.section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
+}
+
+
+.underline-removal {
+    text-decoration: none;
+    color: orange;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.article-content {
+    width: 200px;
+}
+
+
+.image1 {
+    width: 98px;
+    height: 87px;
+    float: left;
+    margin-right:20px;
+    margin-bottom: 4px;
+}
+
+.hero {
+    display: flex;
+    gap: 22px;
+    margin-top: 20px;
+}
+
+.left-hero {
+    background-color: #e0e0e0;
+    height: 300px;
+    width: 30%;
+    padding: 25px;
+}
+
+.hero-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5rem;
+}
+
+.hero-text {
+    padding: 10px;
+    overflow: auto;
+    max-height: 240px;
+}
+
+.middle2-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.img-resize {
+    width: 283px;
+    height: 135px;
+}
+
+.article-content2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article-container2 {
+    margin-top: 6rem;
+}
+
+.middle3-content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+.footer-container {
+    background-color: #727171;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.text-style {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+    color: rgb(223, 221, 221);
+}
